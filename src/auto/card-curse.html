@@ -1,0 +1,32 @@
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <link rel="stylesheet" type="text/css" href="card.css">
+</head>
+<body>
+
+    <div class="card issue">
+        <div class="content">
+            <div class="up">
+                <div class="header">
+                    Подстава<div class="number"></div>
+                </div>
+                <div class="title">
+                    ${CARD_TITLE}
+                    <div class="title-qualifier">${CARD_QUALIFIER}</div>
+                </div>
+                <div class="subtitle">${CARD_SUBTITLE}</div>
+            </div>
+            <div class="image">
+                <img src="image-c-${CARD_LEVEL}-${CARD_ID}.png"/>
+            </div>
+            <div class="down">
+                <div class="text">${CARD_TEXT}</div>
+                <div class="fail">${CARD_FAIL}</div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+</html>

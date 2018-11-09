@@ -89,7 +89,8 @@ body {
 }
 
 .footer {
-    padding: 5px 0px;
+    padding-top: 10px;
+    padding-bottom: 5px;
     font-family: monospace;
     font-size: 30px;
 }
