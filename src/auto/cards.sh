@@ -9,4 +9,5 @@ ls tmp-list-part-* | sort | while read f; do
         -background none -layers merge +repage out/combined-$f.png
 
  convert cards-transparent.png out/combined-$f.png -gravity center -compose over -composite out/combined-$f.png
+ cp out/combined-$f.png result/combined-$f.png
 done
